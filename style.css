@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+body {
+    background: #161622;
+    width: 1200px;
+}
+
+main {
+    display: flex;
+    margin: 269px 130px;
+}
+
+main .info p {
+    font: 400 24px 'Inter';
+    color: rgba(255, 255, 255, 0.75);
+    width: 590px;
+    height: 34px;
+    margin-bottom: 16px;
+}
+
+main .info h2 {
+    font: 700 48px 'Inter';
+    color: rgba(255, 255, 255, 0.9);
+    width: 590px;
+    height: 116px;
+    margin-bottom: 40px;
+}
+
+main .info .but button {
+    background: #6F1DF4;
+    border-radius: 8px;
+    font: 700 16px 'Inter';
+    color: #FFFFFF;
+    padding: 18px 40px;
+    width: 165px;
+    height: 56px;
+}
+
+main .info .but button:not(:last-child) {
+    margin-right: 25px;
+}
+
+main h1 {
+    width: 510px;
+    height: 303px;
+    font: 700 250px 'Inter';
+    color: rgba(255, 255, 255, 0.9);
+    margin-left: 80px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    body {
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        margin: 80px auto;
+        text-align: center;
+        margin: 0;
+    }
+
+    main h1 {
+        font: 700 200px 'Inter';
+        margin-top: 120px;
+        width: 600px;
+        margin: 120px 80px 0 0;
+    }
+
+    main .info p {
+        font: 400 20px 'Inter';
+        margin-bottom: 16px;
+        width: 600px;
+    }
+
+    main .info h2 {
+        font: 700 32px 'Inter';
+        margin-bottom: 32px;
+        width: 600px;
+    }
+
+    main .info .but {
+        width: 600px;
+    }
+
+    main .info .but button:not(:last-child) {
+        margin-right: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+        body {
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    main h1 {
+        width: 375px;
+        font: 700 110px 'Inter';
+        height: 150px;
+    }
+
+    main .info p {
+        width: 375px;
+        font: 400 18px 'Inter';
+    }
+
+    main .info h2 {
+        width: 375px;
+        font: 700 28px 'Inter';
+        margin-bottom: 0px;
+    }
+
+    main .info .but button {
+        width: 350px;
+    }
+
+    main .info .but {
+        width: 375px;
+        align-items: center;
+    }
+
+    main .info .but button:not(:last-child) {
+        margin-right: 0;
+    }
+
+}
