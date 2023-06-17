@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #161622;
+    background: #F3F5F6;
     width: 1200px;
 }
 
@@ -18,7 +18,7 @@ main {
 
 main .info p {
     font: 400 24px 'Inter';
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(60, 60, 67, 0.85);
     width: 590px;
     height: 34px;
     margin-bottom: 16px;
@@ -26,7 +26,7 @@ main .info p {
 
 main .info h2 {
     font: 700 48px 'Inter';
-    color: rgba(255, 255, 255, 0.9);
+    color: #000000;
     width: 590px;
     height: 116px;
     margin-bottom: 40px;
@@ -50,12 +50,12 @@ main h1 {
     width: 510px;
     height: 303px;
     font: 700 250px 'Inter';
-    color: rgba(255, 255, 255, 0.9);
+    color: #000000;
     margin-left: 80px;
 }
 
 .white {
-    background: #ffffff;
+    background: #000000;
     border-radius: 8px;
     font: 700 16px 'Inter';
     padding: 18px 40px;
@@ -66,8 +66,11 @@ main h1 {
 
 .white a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
+
+
+
 
 
 @media screen and (max-width: 600px) {
@@ -114,11 +117,12 @@ main h1 {
         margin-top: 10px;
         margin-left: 220px;
     }
+
 }
 
 @media screen and (max-width: 375px) {
 
-        body {
+    body {
         width: 100%;
     }
 
