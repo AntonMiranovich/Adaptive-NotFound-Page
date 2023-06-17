@@ -54,7 +54,7 @@ main h1 {
     margin-left: 80px;
 }
 
-.white {
+.white button {
     background: #000000;
     border-radius: 8px;
     font: 700 16px 'Inter';
@@ -64,7 +64,7 @@ main h1 {
     margin-left: 225px;
 }
 
-.white a {
+.white button {
     text-decoration: none;
     color: #ffffff;
 }
@@ -113,7 +113,7 @@ main h1 {
         margin-right: 12px;
     }
 
-    .white {
+    .white button {
         margin-top: 10px;
         margin-left: 220px;
     }
@@ -162,7 +162,7 @@ main h1 {
         margin-right: 0;
     }
 
-    .white {
+    .white button {
         margin-left: 100px;
     }
 
